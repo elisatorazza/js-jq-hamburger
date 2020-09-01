@@ -1,6 +1,6 @@
 // Hamburger menu:
 // mostrare / nascondere il menu principale
-var hamburger = $(".header-right > a > .fa-bars");
+var hamburger = $(".header-right > a");
 
 hamburger.click(
   function () {
@@ -8,7 +8,7 @@ hamburger.click(
   }
 );
 
-var close = $(".hamburger-menu > a > .fa-times");
+var close = $(".hamburger-menu > a");
 
 close.click(
   function () {
